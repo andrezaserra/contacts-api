@@ -7,7 +7,7 @@ module Api::V1
  
   private
     def require_authentication!
-      twrow(:warden, scope:, :user) unless current_user.presence   
+      twrow(:warden, scope: :user) unless current_user.presence   
     end
 
  end

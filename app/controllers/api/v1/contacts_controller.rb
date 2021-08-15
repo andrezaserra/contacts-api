@@ -56,5 +56,4 @@ class Api::V1::ContactsController < Api::V1::ApiController
                 render json: {}, status: :forbidden
             end
         end
-    end
 end
